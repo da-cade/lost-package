@@ -1,0 +1,27 @@
+body{
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+
+main{
+  flex-grow: 1;
+}
+
+.btn-dark{
+  margin-left: .5rem;
+  margin-right: .5rem;
+}
+
+.pack-box{
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  min-width: 0;
+  max-width: 50vh;
+  word-wrap: break-word;
+  background-color: #fff;
+  background-clip: border-box;
+  border: 1px solid rgba(0,0,0,.125);
+  border-radius: .25rem;
+}
